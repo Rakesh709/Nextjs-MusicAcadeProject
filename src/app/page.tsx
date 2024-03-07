@@ -1,3 +1,4 @@
+import HeroSection from "@/components/ui/HeroSection";
 
 
 export default function Home() {
@@ -5,6 +6,7 @@ export default function Home() {
     <main className="min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.03]"> 
         {/* for grid plugin need to import */}
        <h1 className="text-3xl text-center">Rakesh Music Academy</h1>
+       <HeroSection/>
     </main>
   );
 }
