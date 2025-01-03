@@ -1,5 +1,6 @@
 import { ThreeDCardDemo } from "@/components/ThreeDCardDemo";
 import HeroSection from "@/components/HeroSection";
+import FeaturedCourses from "@/components/FeaturedCourses";
 
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
         {/* for grid plugin need to import */}
        <h1 className="text-3xl text-center">Rakesh Music Academy</h1>
        <HeroSection/>
+       <FeaturedCourses/>
        <ThreeDCardDemo/>
     </main>
   );
