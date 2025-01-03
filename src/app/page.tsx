@@ -1,5 +1,5 @@
 import { ThreeDCardDemo } from "@/components/ThreeDCardDemo";
-import HeroSection from "@/components/ui/HeroSection";
+import HeroSection from "@/components/HeroSection";
 
 
 export default function Home() {
