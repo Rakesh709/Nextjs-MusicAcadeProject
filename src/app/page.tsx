@@ -2,6 +2,7 @@ import { ThreeDCardDemo } from "@/components/ThreeDCardDemo";
 import HeroSection from "@/components/HeroSection";
 import FeaturedCourses from "@/components/FeaturedCourses";
 import WhyChooseUs from "@/components/WhyChooseUs";
+import TestimonialCards from "@/components/TestimonialCards";
 
 
 export default function Home() {
@@ -12,6 +13,7 @@ export default function Home() {
        <HeroSection/>
        <FeaturedCourses/>
        <WhyChooseUs/>
+       <TestimonialCards/>
        <ThreeDCardDemo/>
 
        
