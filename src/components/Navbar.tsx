@@ -31,7 +31,12 @@ function Navbar({ className }: { className?: string }) {
             <MenuItem setActive={setActive} active={active} item="Contact Us">
               {/* //create contact page */}
             </MenuItem>
-        </Link>   
+        </Link>  
+        <Link href={"/hireme"}>
+            <MenuItem setActive={setActive} active={active} item="Hire Me">
+              {/* //create contact page */}
+            </MenuItem>
+        </Link>  
       </Menu>
     </div>
   );
