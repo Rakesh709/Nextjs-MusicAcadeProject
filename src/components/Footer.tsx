@@ -33,7 +33,7 @@ function Footer() {
         </li>
         <li>
           <a
-            href="#"
+            href="courses"
             className="hover:text-white transition-colors duration-300"
           >
             Courses
@@ -41,10 +41,18 @@ function Footer() {
         </li>
         <li>
           <a
-            href="#"
+            href="contact"
             className="hover:text-white transition-colors duration-300"
           >
             Contact
+          </a>
+        </li>
+        <li>
+          <a
+            href="hireme"
+            className="hover:text-white transition-colors duration-300"
+          >
+            Hire Me
           </a>
         </li>
       </ul>
@@ -53,19 +61,19 @@ function Footer() {
       <h2 className="text-white text-lg font-semibold mb-4">Follow Us</h2>
       <div className="flex space-x-4">
         <a
-          href="#"
+          href="https://www.linkedin.com/in/rakesh-kumar-6b3228145/"
           className="hover:text-white transition-colors duration-300"
         >
-          Facebook
+          LinkedIn
         </a>
         <a
-          href="#"
+          href="https://github.com/Rakesh709"
           className="hover:text-white transition-colors duration-300"
         >
-          Twitter
+          GithHub
         </a>
         <a
-          href="#"
+          href="https://www.instagram.com/bucket_flow_/"
           className="hover:text-white transition-colors duration-300"
         >
           Instagram
@@ -74,10 +82,10 @@ function Footer() {
     </div>
     <div>
       <h2 className="text-white text-lg font-semibold mb-4">Contact Us</h2>
-      <p>New Delhi, India</p>
-      <p>Delhi 10001</p>
-      <p>Email: info@musicschool.com</p>
-      <p>Phone: (123) 456-7890</p>
+      <p>Bengaluru, India</p>
+      <p>Bengaluru 560021</p>
+      <p>Email:rakesh1.kumar1024@gmail.com</p>
+      <p>Phone: (709) 796-7362</p>
     </div>
     </div>
     <p className="text-center text-xs pt-8">© 2025 Music School. All rights reserved.</p>
